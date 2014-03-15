@@ -3,9 +3,17 @@ JKNullReplacer
 
 A NSArray and NSDictionary Category to replace NSNull values from NSArray and NSDictionary.
 
-###How to use ?
+### Adding JKNullReplacer to your project
 
-just import **JKNullReplacer.h**
+Install via **Cocoapods**, add a line like the one below, in your Podfile:
+
+`pod 'JKNullReplacer', '~> 1.0.0'`
+
+Alternatively, you can clone this repository and add the files to your project
+
+### Getting Started:
+
+Just by `#import JKNullReplacer.h`
 
 ####For removing NSNull values from a dictionary.
 
@@ -29,3 +37,7 @@ just import **JKNullReplacer.h**
     
     NSLog(@"%@", dic1);
     NSLog(@"%@", [dic1 dictionaryWithoutNulls]);
+    
+### License
+
+This code is distributed under the terms and conditions of the MIT license.
