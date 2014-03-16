@@ -7,13 +7,13 @@ A NSArray and NSDictionary Category to replace NSNull values from NSArray and NS
 
 Install via **Cocoapods**, add a line like the one below, in your Podfile:
 
-`pod 'JKNullReplacer', '~> 1.0.0'`
+**`pod 'JKNullReplacer', '~> 1.0.0'`**
 
 Alternatively, you can clone this repository and add the files to your project
 
 ### Getting Started:
 
-Just by `#import JKNullReplacer.h`
+Just by **`#import JKNullReplacer.h`**
 
 ####For removing NSNull values from a dictionary.
 
