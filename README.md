@@ -5,7 +5,7 @@ A NSArray and NSDictionary Category to replace NSNull values from NSArray and NS
 
 ### Adding JKNullReplacer to your project
 
-Install via **Cocoapods**, add a line like the one below, in your Podfile:
+Install via **CocoaPods**, add a line like the one below, in your Podfile:
 
 **`pod 'JKNullReplacer', '~> 1.0.0'`**
 
